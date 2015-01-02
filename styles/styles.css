@@ -49,6 +49,10 @@ header {
 .message {
     padding: .25em .125em;
 }
+.message img,
+.message iframe {
+    max-width: 100%;
+}
 footer {
     margin-top: -4.875em;
 }
