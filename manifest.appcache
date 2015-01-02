@@ -1,0 +1,9 @@
+CACHE MANIFEST
+
+CACHE:
+https://cdn.rawgit.com/barberboy/chat-anarchy-static/1.0.0/scripts/client.min.js
+https://cdn.rawgit.com/barberboy/chat-anarchy-static/1.0.0/styles/styles.min.css
+https://cdn.rawgit.com/barberboy/chat-anarchy-static/1.0.0/images/apple-touch-icon.png
+https://cdn.rawgit.com/barberboy/chat-anarchy-static/1.0.0/images/favicon.png
+https://cdn.rawgit.com/barberboy/source-code-pro/1.017/source-code-pro.css
+https://cdn.socket.io/socket.io-1.2.1.js
