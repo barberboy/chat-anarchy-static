@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Static assets for chat anarchy.",
   "files": [
+    "manifest.appcache",
     "scripts/client.min.js",
     "styles/styles.min.css",
     "images/favicon.png",
