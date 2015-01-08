@@ -12,8 +12,6 @@ body {
 }
 body {
     padding: 0 .25em;
-    -webkit-overflow-scrolling: touch;
-    overflow: scroll;
 }
 main,
 footer {
