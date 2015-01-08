@@ -7,7 +7,8 @@ h2 {
     margin: 0;
 }
 html,
-body {
+body,
+main {
     height: 100%;
 }
 body {
@@ -25,6 +26,15 @@ header {
     width: 100%;
     box-sizing: content-box;
 }
+main {
+    display: table;
+    padding: 3em 0.25em 5.125em;
+    width: 100%;
+    vertical-align: bottom;
+}
+footer {
+    margin-top: -4.875em;
+}
 .count {
     display: inline-block;
     text-align: center;
@@ -33,13 +43,6 @@ header {
     position: absolute;
     bottom: .5em;
     right: .5em;
-}
-main {
-    padding: 3em 0.25em 5.125em;
-    width: 100%;
-    display: table;
-    height: 100%;
-    vertical-align: bottom;
 }
 .messages {
     display: table-cell;
@@ -54,9 +57,6 @@ main {
 .message img,
 .message iframe {
     max-width: 100%;
-}
-footer {
-    margin-top: -4.875em;
 }
 .message-box {
     width: 100%;
