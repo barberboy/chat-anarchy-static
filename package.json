@@ -1,6 +1,6 @@
 {
   "name": "chat-anarchy-static",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Static assets for chat anarchy.",
   "files": [
     "scripts/client.min.js",

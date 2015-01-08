@@ -36,18 +36,22 @@ header {
     bottom: .5em;
     right: .5em;
 }
-.messages {
+main {
+    padding: 3em 0.25em 5.125em;
     width: 100%;
-    min-height: 100%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-    padding: 2.75em .25em 4.875em;
-    padding: 3em .25em 5.125em
+    display: table;
+    height: 100%;
+    vertical-align: bottom;
+}
+.messages {
+    display: table-cell;
+    vertical-align: bottom;
 }
 .message {
     padding: .25em .125em;
+}
+.message .body {
+    white-space: pre-wrap;
 }
 .message img,
 .message iframe {
